@@ -52,7 +52,7 @@ print(f"Самый дорогой: {max_product} — {max_price}")
 print("Сумма по месяцах:")
 for month in monthly_totals:
     print(f"{month}: {monthly_totals[month]}")
-
+#3
 js2_path = "C:/Users/anton/Downloads/Рабочий стол/employees.json"
 with open(js2_path, 'r', encoding='utf-8') as f:
     emloyess = json.load(f)
@@ -60,7 +60,7 @@ print("Employess:")
 for e in emloyess:
     print(e['имя'], "-", e['должность'])
 
-
+#4
 best_id = None
 best_perfomance = -1
 total = 0
@@ -84,4 +84,3 @@ with open(csv2_path, 'r', encoding='utf-8') as f:
 avg = total / count if count else 0
 print(f"Best employ: {best_id}, mark {best_perfomance}")
 print(f"Avg mark: {avg:.2f}")
-
